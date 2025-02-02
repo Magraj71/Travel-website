@@ -1,0 +1,82 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling the form container */
+form {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Styling the form header */
+form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Styling the labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Styling the input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Styling the button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3262a1;
+}
+
+/* Styling the link for login */
+p {
+    margin-top: 15px;
+    color: #555;
+    font-size: 14px;
+}
+
+a {
+    color: #0072ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

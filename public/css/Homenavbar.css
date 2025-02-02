@@ -1,0 +1,25 @@
+.tm-nav {
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+.tm-nav li a {
+  margin: 5px 5px;
+}
+.results-container {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  display: none; /* Hidden by default */
+}
+
+.result-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}

@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.navbar {
+    background-color: #1d98b9;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+header input, header button {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+/* Filters Section */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.filter {
+    margin: 10px;
+}
+
+/* Best Sellers Section */
+.best-sellers {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #1d98b9;
+    text-align: center;
+    color: white;
+}
+
+footer .callback {
+    background-color: white;
+    color: #0044cc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 300px; /* Set a fixed width for all cards */
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure content doesn't overflow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 100%; /* Ensure the image takes full width of the card */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures the image scales and crops nicely */
+    border-bottom: 1px solid #ccc; /* Adds a subtle separation line */
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.card p b {
+    color: #e63946; /* Highlight the price */
+}

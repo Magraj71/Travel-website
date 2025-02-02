@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.form-container {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tabs {
+    display: flex;
+    background-color: #f5c518;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+.tab.active {
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+.form-content {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+select, input, button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+button {
+    background-color: #f5c518;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #e0a417;
+}
+
+/* Hide inactive tabs */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
